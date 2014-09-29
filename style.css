@@ -63,9 +63,12 @@ code {
 footer {
   font-size: 12px;
   font-weight: normal;
-  margin-top: 200px;
-  opacity: 0.4;
+  /*margin-top: 200px;*/
+  opacity: 0.7;
   text-align: right;
+    position: fixed;
+    bottom: 10px;
+    right: 10px
 }
 
 a {
