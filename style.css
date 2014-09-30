@@ -20,10 +20,11 @@ h2 {
    font-weight: normal;
 }
 .hero {
-   font-size: 40px;
+   font-size: 150%;
+   font-weight: bolder;
    margin-bottom: 1.5em;
    text-align: center;
-   /*color: #cb2027;*/
+   color: #cb2027;
 }
 .intro {
    text-align: center;
@@ -49,7 +50,7 @@ code {
    margin-top: 1.5em;
 }
 footer {
-   font-size: 12px;
+   font-size: 50%;
    font-weight: normal;
    /*margin-top: 200px;*/
    opacity: 0.7;
