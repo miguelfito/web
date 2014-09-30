@@ -1,74 +1,64 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Yanone+Kaffeesatz:200,300,400);
-
-body {
-  background-color: #222222;
-  color: #ddd;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 30px;
-  padding: 40px;
-  padding-bottom: 0;
+ body {
+   background-color: #222222;
+   color: #ddd;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   font-size: 30px;
+   padding: 40px;
+   padding-top: 0px;
 }
-
 strong {
-  color: #cb2027;
+   color: #cb2027;
 }
-
 h1 {
-  font-size: 60px;
-  /*font-weight: 700;*/
-  margin-bottom: 1.5em;
-  text-align: center;
+   font-size: 60px;
+   /*font-weight: 700;*/
+   margin-bottom: 1.5em;
+   text-align: center;
 }
-
 h2 {
-  font-weight: normal;
+   font-weight: normal;
 }
-
 .hero {
-  font-size: 40px;
-  margin-bottom: 1.5em;
-  text-align: center;
-  /*color: #cb2027;*/
+   font-size: 40px;
+   margin-bottom: 1.5em;
+   text-align: center;
+   /*color: #cb2027;*/
 }
-
 .intro {
-  text-align: center;
+   text-align: center;
 }
-
 .func {
-  color: #9ae2e4;
+   color: #9ae2e4;
 }
-
 .name {
-  color: gold;
+   color: gold;
 }
-
 .classes {
-  color: #9c9ae4;
+   color: #9c9ae4;
 }
-
 .disclaimer {
-  line-height: 2em;
+   line-height: 2em;
 }
-
 code {
-  display: block;
-  font-family: 'Ubuntu Mono', Monaco, Menlo;
-  font-size: 25px;
-  margin-bottom: 3em;
-  margin-left: 40px;
-  margin-top: 1.5em;
+   display: block;
+   font-family: 'Ubuntu Mono', Monaco, Menlo;
+   font-size: 25px;
+   margin-bottom: 3em;
+   margin-left: 40px;
+   margin-top: 1.5em;
 }
-
 footer {
-  font-size: 12px;
-  font-weight: normal;
-  margin-top: 200px;
-  opacity: 0.4;
-  text-align: right;
+   font-size: 12px;
+   font-weight: normal;
+   /*margin-top: 200px;*/
+   opacity: 0.7;
+   text-align: right;
+   position: fixed;
+   bottom: 10px;
+   right: 10px
 }
-
 a {
-  color: #00AAFF;
-  text-decoration: none;
+   color: #00AAFF;
+   text-decoration: none;
 }
