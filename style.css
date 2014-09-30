@@ -1,9 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Indie+Flower|Yanone+Kaffeesatz:200,300,400);
- body {
+body {
    background-color: #222222;
-   color: #ddd;
+   color: #ddd; 
    font-family: 'Yanone Kaffeesatz', sans-serif;
-   /*font-family: 'Indie Flower', sans-serif;*/
    font-size: 30px;
    padding: 40px;
    padding-top: 0px;
@@ -68,3 +67,4 @@ a {
    color: #00AAFF;
    text-decoration: none;
 }
+
