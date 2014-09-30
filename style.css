@@ -1,8 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Yanone+Kaffeesatz:200,300,400);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Indie+Flower|Yanone+Kaffeesatz:200,300,400);
  body {
    background-color: #222222;
    color: #ddd;
    font-family: 'Yanone Kaffeesatz', sans-serif;
+   /*font-family: 'Indie Flower', sans-serif;*/
    font-size: 30px;
    padding: 40px;
    padding-top: 0px;
@@ -12,6 +13,7 @@ strong {
 }
 h1 {
    font-size: 60px;
+
    /*font-weight: 700;*/
    margin-bottom: 1.5em;
    text-align: center;
@@ -41,6 +43,9 @@ h2 {
 .disclaimer {
    line-height: 2em;
 }
+.handwriting {
+   font-family: 'Indie Flower', sans-serif;
+} 
 code {
    display: block;
    font-family: 'Ubuntu Mono', Monaco, Menlo;
