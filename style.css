@@ -67,4 +67,18 @@ a {
    color: #00AAFF;
    text-decoration: none;
 }
+.socialTwitterFrame {
+   font-family: 'Indie Flower', sans-serif;
+}
+.twitterLogo {
+   height: 3%;
+   width: 3%;
+   vertical-align: middle;
+}
+/* Only for designing purposes */
+.otherColors {
+   color: #64B9D1;
+   color: #E67B00;
+   color: #F5F8FA;
+}
 
