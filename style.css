@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Indie+Flower|Yanone+Kaffeesatz:200,300,400);
 body {
    background-color: #222222;
-   color: #ddd; 
+   color: #ddd;
    font-family: 'Yanone Kaffeesatz', sans-serif;
    font-size: 30px;
    padding: 40px;
@@ -12,8 +12,8 @@ strong {
 }
 h1 {
    font-size: 60px;
-
    /*font-weight: 700;*/
+
    margin-bottom: 1.5em;
    text-align: center;
 }
@@ -44,7 +44,7 @@ h2 {
 }
 .handwriting {
    font-family: 'Indie Flower', sans-serif;
-} 
+}
 code {
    display: block;
    font-family: 'Ubuntu Mono', Monaco, Menlo;
@@ -57,6 +57,7 @@ footer {
    font-size: 50%;
    font-weight: normal;
    /*margin-top: 200px;*/
+
    opacity: 0.7;
    text-align: right;
    position: fixed;
@@ -69,16 +70,21 @@ a {
 }
 .socialTwitterFrame {
    font-family: 'Indie Flower', sans-serif;
+   margin: 100px;
 }
 .twitterLogo {
-   height: 3%;
-   width: 3%;
+   height: 1.5%;
+   width: 1.5%;
    vertical-align: middle;
 }
 /* Only for designing purposes */
-.otherColors {
+
+.personalColor.cyan {
    color: #64B9D1;
+}
+.personalColor.orange {
    color: #E67B00;
+}
+.personalColor.white {
    color: #F5F8FA;
 }
-
