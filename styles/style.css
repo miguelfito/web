@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Indie+Flower|Yanone+Kaffeesatz:200,300,400);
+
+@import url('/styles/highlight/railscasts.css');
+
+html {
+  height: 100%;
+  background-color: #222222;
+
+}
+body {
+  color: #ddd;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
+  padding: 40px;
+  padding-top: 0px;
+}
+strong {
+  color: #cb2027;
+}
+h1 {
+  font-size: 60px;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+h2 {
+  font-weight: normal;
+}
+.hero {
+  font-size: 150%;
+  font-weight: bolder;
+  margin-bottom: 1.5em;
+  text-align: center;
+  color: #cb2027;
+}
+.intro {
+  text-align: center;
+}
+.func {
+  color: #9ae2e4;
+}
+.name {
+  color: gold;
+}
+.classes {
+  color: #9c9ae4;
+}
+.disclaimer {
+  line-height: 2em;
+}
+.handwriting {
+  font-family: 'Indie Flower', sans-serif;
+}
+code {
+  display: block;
+  font-family: 'Ubuntu Mono', Monaco, Menlo;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+footer {
+  font-size: 75%;
+  font-weight: normal;
+  opacity: 0.7;
+  text-align: right;
+  position: fixed;
+  bottom: 10px;
+  right: 10px
+}
+a {
+  color: #00AAFF;
+  text-decoration: none;
+}
+.socialTwitterFrame {
+  font-family: 'Indie Flower', sans-serif;
+  margin: 100px;
+}
+.twitterLogo {
+  height: 1.5%;
+  width: 1.5%;
+  vertical-align: middle;
+}
+/* Only for designing purposes */
+
+.personalColor.cyan {
+  color: #64B9D1;
+}
+.personalColor.orange {
+  color: #E67B00;
+}
+.personalColor.white {
+  color: #F5F8FA;
+}
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
