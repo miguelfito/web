@@ -1,101 +1,72 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono|Indie+Flower|Yanone+Kaffeesatz:200,300,400);
-
-@import url('/styles/highlight/railscasts.css');
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower:200,300,400);
 
 html {
-  height: 100%;
-  background-color: #222222;
+    height: 100%;
+    background-color: #222222;
 
 }
+
 body {
-  color: #ddd;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 30px;
-  padding: 40px;
-  padding-top: 0px;
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 40px;
+    padding-top: 0px;
 }
-strong {
-  color: #cb2027;
-}
-h1 {
-  font-size: 60px;
-  margin-bottom: 1.5em;
-  text-align: center;
-}
-h2 {
-  font-weight: normal;
-}
-.hero {
-  font-size: 150%;
-  font-weight: bolder;
-  margin-bottom: 1.5em;
-  text-align: center;
-  color: #cb2027;
-}
-.intro {
-  text-align: center;
-}
-.func {
-  color: #9ae2e4;
-}
-.name {
-  color: gold;
-}
-.classes {
-  color: #9c9ae4;
-}
-.disclaimer {
-  line-height: 2em;
-}
-.handwriting {
-  font-family: 'Indie Flower', sans-serif;
-}
-code {
-  display: block;
-  font-family: 'Ubuntu Mono', Monaco, Menlo;
-  font-size: 12px;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-}
-footer {
-  font-size: 75%;
-  font-weight: normal;
-  opacity: 0.7;
-  text-align: right;
-  position: fixed;
-  bottom: 10px;
-  right: 10px
-}
-a {
-  color: #00AAFF;
-  text-decoration: none;
-}
-.socialTwitterFrame {
-  font-family: 'Indie Flower', sans-serif;
-  margin: 100px;
-}
-.twitterLogo {
-  height: 1.5%;
-  width: 1.5%;
-  vertical-align: middle;
-}
-/* Only for designing purposes */
 
-.personalColor.cyan {
-  color: #64B9D1;
+.handwriting {
+    font-family: 'Indie Flower', sans-serif;
 }
-.personalColor.orange {
-  color: #E67B00;
+
+footer {
+    font-size: 75%;
+    font-weight: normal;
+    opacity: 0.7;
+    text-align: right;
+    position: fixed;
+    bottom: 10px;
+    right: 10px
 }
-.personalColor.white {
-  color: #F5F8FA;
+
+a {
+    color: #dddddd;
+    text-decoration: none;
 }
+
+a:hover {
+    color: #00aaff;
+}
+
+.blogLink {
+    color: #dddddd;
+}
+
+.blogLink:hover {
+    color: #dddddd;
+}
+
+#sprite {
+    background-size: contain;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.mastodonSprite {
+    background: url(https://joinmastodon.org/logos/logo-purple.svg);
+}
+
+.twitterSprite {
+    background-image: url('/img/twitter.png');
+}
+
 @media screen and (max-width: 400px) {
-  body {
-    font-size: 20px;
-  }
-  h1 {
-    font-size: 40px;
-  }
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
 }
