@@ -3,7 +3,6 @@
 html {
     height: 100%;
     background-color: #222222;
-
 }
 
 body {
@@ -15,7 +14,7 @@ body {
 }
 
 .handwriting {
-    font-family: 'Indie Flower', sans-serif;
+    font-family: "Indie Flower", sans-serif;
 }
 
 footer {
@@ -25,7 +24,7 @@ footer {
     text-align: right;
     position: fixed;
     bottom: 10px;
-    right: 10px
+    right: 10px;
 }
 
 a {
@@ -56,11 +55,11 @@ a:hover {
 }
 
 .mastodonSprite {
-    background: url('/img/mastodon.svg');
+    background: url("/img/mastodon.svg");
 }
 
 .twitterSprite {
-    background-image: url('/img/twitter.png');
+    background-image: url("/img/twitter.png");
 }
 
 @media screen and (max-width: 400px) {
